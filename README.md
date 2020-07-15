@@ -11,3 +11,4 @@ This is the base for all my personal dev-containers as used, for instance, withi
 - Python 3
 - Entr
 - Make
+- NodeJS 12
