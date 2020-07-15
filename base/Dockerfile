@@ -1,5 +1,5 @@
 FROM ubuntu:20.04 as BASE
-RUN apt-get update && apt-get install -y entr curl git tmux
+RUN apt-get update && apt-get install -y entr curl git tmux neovim
 
 FROM BASE AS WITHGO
 ENV GO_VERSION=1.14.5
